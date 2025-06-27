@@ -19,7 +19,7 @@ const config = isLocal
 // Upload a file to blob storage
 async function uploadToBlob(file) {
   const blobName = Date.now() + "-" + file.name;
-  const url = `http://localhost:7071/api/upload?name=${blobName}`;
+  const url = `${config.functionsBase}/upload?name=${blobName}`;
 
   const response = await fetch(url, {
     method: "POST",
