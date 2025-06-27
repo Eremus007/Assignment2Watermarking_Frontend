@@ -11,9 +11,9 @@ const config = isLocal
     }
   : {
       functionsBase: "https://Assignment2WatermarkingApp.azurewebsites.net/api",
-      blobUploads: "https://watermarkuploads.blob.core.windows.net/uploads",
-      blobTemp: "https://watermarktemp.blob.core.windows.net/temp",
-      blobOutput: "https://watermarkoutput.blob.core.windows.net/output"
+      blobUploads: "https://assignment2watermarking.blob.core.windows.net/uploads",
+      blobTemp: "https://assignment2watermarking.blob.core.windows.net/temp",
+      blobOutput: "https://assignment2watermarking.blob.core.windows.net/output"
     };
 
 // Upload a file to blob storage
