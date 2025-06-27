@@ -10,7 +10,7 @@ const config = isLocal
       blobOutput: "http://127.0.0.1:10000/devstoreaccount1/output/"
     }
   : {
-      functionsBase: "https://Assignment2WatermarkingApp.azurewebsites.net/api",
+      functionsBase: "assignment2watermarkingapp-fefedjgtc8dshxfc.canadacentral-01.azurewebsites.net/api",
       blobUploads: "https://assignment2watermarking.blob.core.windows.net/uploads",
       blobTemp: "https://assignment2watermarking.blob.core.windows.net/temp",
       blobOutput: "https://assignment2watermarking.blob.core.windows.net/output"
