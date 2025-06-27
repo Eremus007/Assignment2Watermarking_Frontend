@@ -74,7 +74,7 @@ async function generateThumbnail() {
 
     if (response.ok) {
       document.getElementById("previewImage").src =
-        `${config.blobOutput}/temp_thumbnail.png?t=${Date.now()}`; // force refresh
+        `${config.blobTemp}/${outputName}?t=${Date.now()}`; // force refresh
     } else {
       alert("Thumbnail generation failed.");
     }
